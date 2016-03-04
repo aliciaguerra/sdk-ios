@@ -1,0 +1,121 @@
+//
+//  ANWelcomeTextVehicleIdentifiedVC.m
+//  Self-ServiceEstimateLib
+//
+//  Created by Quan Nguyen on 8/19/15.
+//  Copyright (c) 2015 Quan Nguyen. All rights reserved.
+//
+
+#import "ANWelcomeTextVehicleIdentifiedVC.h"
+
+@interface ANWelcomeTextVehicleIdentifiedVC ()
+
+@property (strong, nonatomic) IBOutlet UILabel *ownerName;
+@property (weak, nonatomic) IBOutlet UILabel *lblWelcome;
+@property (strong, nonatomic) IBOutlet UILabel *vehicle;
+@property (strong, nonatomic) IBOutlet UIButton *btnStart;
+@property (strong, nonatomic) IBOutlet UIView *vwIndicateDmg;
+@property (strong, nonatomic) IBOutlet UIView *vwTakePhotos;
+@property (strong, nonatomic) IBOutlet UIView *vwSubmit;
+@property (weak, nonatomic) IBOutlet UIView *vwAddNotes;
+
+@end
+
+@implementation ANWelcomeTextVehicleIdentifiedVC
+@synthesize ownerName;
+@synthesize lblWelcome;
+@synthesize vehicle;
+@synthesize vwIndicateDmg;
+@synthesize vwTakePhotos;
+@synthesize vwAddNotes;
+@synthesize vwSubmit;
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    // If ownerName is only set during the vehicle identification process, otherwise it's nil.
+    if (self.strWelcomeText != nil) {
+        ownerName.text = self.strWelcomeText;
+        [lblWelcome setHidden:YES];
+    } else {
+        //set vehicle owner name
+        NSString *strName = self.claim.ownerName;
+        if(strName == nil || [strName isEqualToString:@""]) {
+            strName = @"";
+        } else {
+            strName = [NSString stringWithFormat:@" %@", strName];
+        }
+        
+        NSString *labelWelcomeText = [ownerName text];
+        labelWelcomeText = [labelWelcomeText stringByReplacingOccurrencesOfString:@"<ownerName>" withString:strName];
+        ownerName.text = labelWelcomeText;
+    }
+    
+    if(self.strStartButtonText != nil) {
+        [self.btnStart setTitle:self.strStartButtonText forState:UIControlStateNormal];
+    }
+    
+    //set vehicle
+    self.vehicle.text = self.claim.yearMakeModel;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    // Enable the next button
+    [self.btnStart setEnabled:YES];
+    self.btnStart.userInteractionEnabled = YES;
+}
+
+- (void) viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    //hide the 3D damage instruction if WebGl is not supported.
+    if( ! [self.globalInstance damageViewerEnabled]) {
+        [vwIndicateDmg setHidden:YES];
+        
+        CGFloat offset = vwIndicateDmg.frame.size.height;
+        
+        //take photo view
+        CGRect photoRect = vwTakePhotos.frame;
+        photoRect.origin.y -= offset;
+        vwTakePhotos.frame = photoRect;
+        
+        //notes view
+        CGRect notesRect = vwAddNotes.frame;
+        notesRect.origin.y -= offset;
+        vwAddNotes.frame = notesRect;
+        
+        //submit view
+        CGRect submitRect = vwSubmit.frame;
+        submitRect.origin.y -= offset;
+        vwSubmit.frame = submitRect;
+    }
+}
+
+- (IBAction)startProcess:(UIButton *)sender {
+    //disable the next button and user interaction
+    [self.btnStart setEnabled:NO];
+    self.btnStart.userInteractionEnabled = NO;
+
+    NSString *trimmedTitle = (self.strStartButtonText == nil ? @"Start" : @"Next");
+    NSString *eventName = [NSString stringWithFormat:@"Welcome_%@_ButtonClicked", trimmedTitle];
+    [self saveMetrics:eventName];
+    
+    // If the vehicle data is provided then go directly to Damage, otherwise go to Vehicle Identification
+    if (self.claim.customerStatus < ANCustomerStatusStarted) {
+        [self updateClaimStatus:ANCustomerStatusStarted];
+    }
+    
+    if (self.vehicle.text.length > 0) {
+        [self moveToDamageViewer];
+    } else {
+        [self moveToVehicleSelection];
+    }
+}
+
+- (IBAction)gotoVehicleSelection:(UIButton *)sender {
+    [self saveMetrics:@"Welcome_NotMyVehicle_ButtonClicked"];
+    [self moveToVehicleSelection];
+}
+
+
+@end

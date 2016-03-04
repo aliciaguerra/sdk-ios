@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ANPhotoViewController">
+            <connections>
+                <outlet property="btnDamageCenter" destination="oyh-C7-lsL" id="h1m-Q6-Ib6"/>
+                <outlet property="btnDamageLeft" destination="M2f-nk-HEt" id="4yz-OQ-fBK"/>
+                <outlet property="btnDamageRight" destination="goH-wv-Dtv" id="QIR-qD-LdG"/>
+                <outlet property="btnLeftFront" destination="Cl5-zA-K42" id="LjW-uN-vOC"/>
+                <outlet property="btnLeftRear" destination="apd-3d-yYD" id="b8l-GQ-GIr"/>
+                <outlet property="btnOdometer" destination="0QL-Hh-cXy" id="xbS-FC-gvE"/>
+                <outlet property="btnRightFront" destination="yyc-0J-XUE" id="9lX-hv-Ng6"/>
+                <outlet property="btnRightRear" destination="hDG-nk-6IV" id="ruq-K8-Khk"/>
+                <outlet property="btnVin" destination="5Th-hq-WwU" id="uvh-rB-qfZ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stage_iphone4.png" translatesAutoresizingMaskIntoConstraints="NO" id="Aaj-dC-9y9">
+                    <rect key="frame" x="9" y="9" width="302" height="398"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="title_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="ffH-A1-Wf9">
+                    <rect key="frame" x="9" y="9" width="302" height="60"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="calculator_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="cpr-Ba-7Jj">
+                    <rect key="frame" x="15" y="22" width="50" height="34"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="title_divider.png" translatesAutoresizingMaskIntoConstraints="NO" id="SZn-If-MRn">
+                    <rect key="frame" x="74" y="24" width="1" height="32"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Self-Service Estimate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CM3-D0-Zuc" userLabel="Lbl Self-Service Estimate">
+                    <rect key="frame" x="86" y="24" width="210" height="32"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="polaroid_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="KIo-E5-5OO">
+                    <rect key="frame" x="22" y="74" width="36" height="36"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nId-t4-lz5">
+                    <rect key="frame" x="74" y="72" width="230" height="36"/>
+                    <attributedString key="attributedText">
+                        <fragment content="PHOTOS">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=":">
+                            <attributes>
+                                <color key="NSColor" red="0.062745098039215685" green="0.12941176470588237" blue="0.34901960784313724" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" Now let's take some photos of your vehicle">
+                            <attributes>
+                                <color key="NSColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="divider.png" translatesAutoresizingMaskIntoConstraints="NO" id="pqE-lN-R7O">
+                    <rect key="frame" x="18" y="114" width="284" height="1"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Close-up Damage Photos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NwT-3L-weC">
+                    <rect key="frame" x="32" y="252" width="266" height="18"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="107" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M2f-nk-HEt">
+                    <rect key="frame" x="30" y="270" width="73" height="54"/>
+                    <state key="normal" backgroundImage="damage_photo_left_iphone4.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="108" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oyh-C7-lsL">
+                    <rect key="frame" x="123" y="270" width="73" height="54"/>
+                    <state key="normal" backgroundImage="damage_photo_center_iphone4.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="109" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="goH-wv-Dtv">
+                    <rect key="frame" x="217" y="270" width="73" height="54"/>
+                    <state key="normal" backgroundImage="damage_photo_right_iphone4.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vehicle Photos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W7T-K9-dYq">
+                    <rect key="frame" x="32" y="118" width="266" height="18"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="105" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Th-hq-WwU">
+                    <rect key="frame" x="219" y="136" width="73" height="54"/>
+                    <state key="normal" backgroundImage="vehicle_photo_vin_iphone4.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="106" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0QL-Hh-cXy">
+                    <rect key="frame" x="217" y="194" width="73" height="54"/>
+                    <state key="normal" backgroundImage="vehicle_photo_odometer_iphone4.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="101" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cl5-zA-K42">
+                    <rect key="frame" x="30" y="136" width="73" height="54"/>
+                    <state key="normal" backgroundImage="vehicle_photo_left_front_iphone4.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="104" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDG-nk-6IV">
+                    <rect key="frame" x="119" y="194" width="73" height="54"/>
+                    <state key="normal" backgroundImage="vehicle_photo_right_rear_iphone4.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" tag="103" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yyc-0J-XUE">
+                    <rect key="frame" x="30" y="194" width="74" height="54"/>
+                    <state key="normal" backgroundImage="vehicle_photo_right_front_iphone4.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="chV-VG-S38">
+                    <rect key="frame" x="204" y="137" width="1" height="110"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="add_photo_btn_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="8IA-XT-s6D">
+                    <rect key="frame" x="33" y="328" width="28" height="22"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ADDITIONAL PHOTOS (optional)" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWL-pb-gyI">
+                    <rect key="frame" x="66" y="328" width="213" height="22"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                    <color key="textColor" red="0.30196078431372547" green="0.51764705882352935" blue="0.91764705882352937" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chevron.png" translatesAutoresizingMaskIntoConstraints="NO" id="vGO-uv-xO0">
+                    <rect key="frame" x="279" y="334" width="7" height="11"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJE-O2-Fgn" userLabel="Btn Add Photos">
+                    <rect key="frame" x="33" y="325" width="254" height="28"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showAdditionImage:" destination="-1" eventType="touchUpInside" id="huv-Ni-B1M"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eC6-mI-eVo">
+                    <rect key="frame" x="22" y="356" width="276" height="45"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <state key="normal" title="     Continue" backgroundImage="large_btn.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="continueClicked:" destination="-1" eventType="touchUpInside" id="JQ5-Oa-xhy"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="102" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apd-3d-yYD">
+                    <rect key="frame" x="119" y="136" width="74" height="54"/>
+                    <state key="normal" backgroundImage="vehicle_photo_left_rear_iphone4.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.26666666666666666" green="0.26666666666666666" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="417" y="447"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="add_photo_btn_icon.png" width="28" height="22"/>
+        <image name="calculator_icon.png" width="50" height="34"/>
+        <image name="chevron.png" width="7" height="11"/>
+        <image name="damage_photo_center_iphone4.png" width="73" height="54"/>
+        <image name="damage_photo_left_iphone4.png" width="73" height="54"/>
+        <image name="damage_photo_right_iphone4.png" width="73" height="54"/>
+        <image name="divider.png" width="284" height="4"/>
+        <image name="large_btn.png" width="276" height="50"/>
+        <image name="polaroid_icon.png" width="36" height="36"/>
+        <image name="stage_iphone4.png" width="302" height="398"/>
+        <image name="title_bg.png" width="302" height="60"/>
+        <image name="title_divider.png" width="3" height="32"/>
+        <image name="vehicle_photo_left_front_iphone4.png" width="73" height="54"/>
+        <image name="vehicle_photo_left_rear_iphone4.png" width="73" height="54"/>
+        <image name="vehicle_photo_odometer_iphone4.png" width="73" height="54"/>
+        <image name="vehicle_photo_right_front_iphone4.png" width="73" height="54"/>
+        <image name="vehicle_photo_right_rear_iphone4.png" width="73" height="54"/>
+        <image name="vehicle_photo_vin_iphone4.png" width="73" height="54"/>
+    </resources>
+</document>

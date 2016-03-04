@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ANConfirmPhotoViewController">
+            <connections>
+                <outlet property="ivPhoto" destination="1Bx-OX-cil" id="ccf-eq-zf4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Bx-OX-cil">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ds2-oy-rOw">
+                    <rect key="frame" x="968" y="0.0" width="56" height="768"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I54-CL-TEE">
+                            <rect key="frame" x="0.0" y="0.0" width="56" height="80"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="56" id="akO-cK-v6P"/>
+                                <constraint firstAttribute="height" constant="80" id="kpl-S0-gyt"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
+                            <state key="normal" title="Use">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="usePhoto:" destination="-1" eventType="touchUpInside" id="68P-tR-mu0"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hlS-ef-pP1">
+                            <rect key="frame" x="0.0" y="688" width="56" height="80"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="56" id="1JX-Yd-HIJ"/>
+                                <constraint firstAttribute="height" constant="80" id="hKS-tb-tpC"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
+                            <state key="normal" title="Retake">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="retakePhoto:" destination="-1" eventType="touchUpInside" id="ZxM-kH-akM"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="hlS-ef-pP1" secondAttribute="bottom" id="1wv-qB-siJ"/>
+                        <constraint firstAttribute="trailing" secondItem="I54-CL-TEE" secondAttribute="trailing" id="7Dd-1Y-fIi"/>
+                        <constraint firstItem="I54-CL-TEE" firstAttribute="top" secondItem="ds2-oy-rOw" secondAttribute="top" id="Bid-Kk-6Wk"/>
+                        <constraint firstItem="hlS-ef-pP1" firstAttribute="leading" secondItem="ds2-oy-rOw" secondAttribute="leading" id="FWw-zh-SgP"/>
+                        <constraint firstAttribute="width" constant="56" id="Tck-Ir-Gpy"/>
+                        <constraint firstAttribute="trailing" secondItem="hlS-ef-pP1" secondAttribute="trailing" id="X8X-PF-iNc"/>
+                        <constraint firstItem="I54-CL-TEE" firstAttribute="leading" secondItem="ds2-oy-rOw" secondAttribute="leading" id="ywe-cz-UhI"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ds2-oy-rOw" secondAttribute="bottom" id="6h5-4m-QHD"/>
+                <constraint firstAttribute="trailing" secondItem="1Bx-OX-cil" secondAttribute="trailing" id="9FO-zP-0t9"/>
+                <constraint firstItem="1Bx-OX-cil" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="AMG-fz-od6"/>
+                <constraint firstAttribute="trailing" secondItem="ds2-oy-rOw" secondAttribute="trailing" id="Ety-iW-aVl"/>
+                <constraint firstItem="ds2-oy-rOw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Ivk-di-l6a"/>
+                <constraint firstAttribute="bottom" secondItem="1Bx-OX-cil" secondAttribute="bottom" id="KbB-Gk-eJl"/>
+                <constraint firstItem="1Bx-OX-cil" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Ky2-VO-SqM"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <point key="canvasLocation" x="480" y="405"/>
+        </view>
+    </objects>
+</document>

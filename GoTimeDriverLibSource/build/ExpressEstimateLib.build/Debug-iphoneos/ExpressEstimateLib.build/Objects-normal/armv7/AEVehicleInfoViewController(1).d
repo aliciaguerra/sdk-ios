@@ -1,0 +1,221 @@
+dependencies: \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/GT_VehicleIdentification/AEVehicleInfoViewController.m \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/GT_VehicleIdentification/AEVehicleInfoViewController.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/GT_VehicleIdentification/AEScanVINViewController.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/GT_VehicleIdentification/ANBaseVinScanViewController.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/GT_VehicleIdentification/AEViewController.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/ANClaimViewController.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/ANClaim.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/LoopBack.framework/Headers/LoopBack.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/LoopBack.framework/Headers/LBModel.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/LoopBack.framework/Headers/SLRemoting.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/LoopBack.framework/Headers/SLRemotingUtils.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/LoopBack.framework/Headers/SLAdapter.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/LoopBack.framework/Headers/SLRESTAdapter.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/LoopBack.framework/Headers/SLRESTContract.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/LoopBack.framework/Headers/SLObject.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/LoopBack.framework/Headers/LBRESTAdapter.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/LoopBack.framework/Headers/LBInstallation.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/LoopBack.framework/Headers/LBPushNotification.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/LoopBack.framework/Headers/LBUser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/LoopBack.framework/Headers/LBFile.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/LoopBack.framework/Headers/LBContainer.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/ANUtils.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/ANGlobal.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/ANLoopBackClientHelper.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/ANNavigationController.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXingObjC.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXingObjCAztec.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXingObjCCore.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXCapture.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXCaptureDelegate.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXCGImageLuminanceSource.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXLuminanceSource.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXImage.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXBitArray.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXBitMatrix.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXBitSource.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXBoolArray.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXByteArray.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXCharacterSetECI.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXDecoderResult.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXDefaultGridSampler.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXGridSampler.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXDetectorResult.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXGenericGF.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXGlobalHistogramBinarizer.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXBinarizer.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXHybridBinarizer.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXIntArray.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXMathUtils.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXMonochromeRectangleDetector.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXPerspectiveTransform.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXReedSolomonDecoder.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXReedSolomonEncoder.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXStringUtils.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXWhiteRectangleDetector.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXResultPoint.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXBarcodeFormat.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXBinaryBitmap.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXByteMatrix.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXDecodeHints.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXDimension.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXEncodeHints.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXErrors.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXInvertedLuminanceSource.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXPlanarYUVLuminanceSource.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXResult.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXResultMetadataType.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXResultPointCallback.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXRGBLuminanceSource.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXWriter.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXByQuadrantReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXGenericMultipleBarcodeReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXMultipleBarcodeReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXMultiDetector.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXQRCodeDetector.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXQRCodeMultiReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXQRCodeReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXAztecCode.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXAztecDecoder.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXAztecDetector.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXAztecDetectorResult.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXAztecEncoder.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXAztecHighLevelEncoder.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXAztecReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXAztecWriter.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXingObjCDataMatrix.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXDataMatrixDecoder.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXDataMatrixDefaultPlacement.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXDataMatrixDetector.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXDataMatrixErrorCorrection.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXDataMatrixHighLevelEncoder.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXDataMatrixReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXDataMatrixSymbolInfo.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXDataMatrixVersion.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXDataMatrixWriter.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXingObjCMaxiCode.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXMaxiCodeDecoder.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXMaxiCodeReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXingObjCOneD.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXAbstractExpandedDecoder.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXAbstractRSSReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXOneDReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXCodaBarReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXCodaBarWriter.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXOneDimensionalCodeWriter.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXCode128Reader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXCode128Writer.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXCode39Reader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXCode39Writer.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXCode93Reader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXEAN13Reader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXUPCEANReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXEAN13Writer.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXUPCEANWriter.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXEAN8Reader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXEAN8Writer.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXITFReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXITFWriter.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXMultiFormatOneDReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXMultiFormatUPCEANReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXRSS14Reader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXRSSDataCharacter.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXRSSExpandedReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXRSSFinderPattern.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXRSSUtils.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXUPCAReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXUPCAWriter.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXUPCEReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXAddressBookAUResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXAddressBookDoCoMoResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXAbstractDoCoMoResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXAddressBookParsedResult.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXParsedResult.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXParsedResultType.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXBizcardResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXBookmarkDoCoMoResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXCalendarParsedResult.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXEmailAddressParsedResult.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXEmailAddressResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXEmailDoCoMoResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXExpandedProductParsedResult.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXExpandedProductResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXGeoParsedResult.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXGeoResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXISBNParsedResult.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXISBNResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXProductParsedResult.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXProductResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXSMSMMSResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXSMSParsedResult.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXSMSTOMMSTOResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXSMTPResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXTelParsedResult.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXTelResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXTextParsedResult.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXURIParsedResult.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXURIResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXURLTOResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXVCardResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXVEventResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXVINParsedResult.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXVINResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXWifiParsedResult.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXWifiResultParser.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXingObjCQRCode.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXQRCode.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXQRCodeAlignmentPattern.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXQRCodeDecoder.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXQRCodeDecoderMetaData.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXQRCodeEncoder.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXQRCodeErrorCorrectionLevel.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXQRCodeFinderPatternInfo.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXQRCodeFinderPattern.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXQRCodeFinderPatternFinder.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXQRCodeMode.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXQRCodeVersion.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXQRCodeWriter.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXingObjCPDF417.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXModulusGF.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXPDF417.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXPDF417BarcodeMatrix.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXPDF417Common.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXPDF417Detector.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXPDF417DetectorResult.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXPDF417Dimensions.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXPDF417ECErrorCorrection.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXPDF417Reader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXPDF417ResultMetadata.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXPDF417ScanningDecoder.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXPDF417Writer.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXMultiFormatReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZXingObjCLib/ZXingObjCHeaders/ZXMultiFormatWriter.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/MBProgressHUD.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/GT_VehicleIdentification/ANWebServiceHelper.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/GT_VehicleIdentification/ANVehicleStyleMappingReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/SSZipArchive.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/minizip/unzip.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/minizip/ioapi.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/ANPhotoViewController.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/GT_Camera_iOS/ANCameraViewController.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/GT_VehicleIdentification/GTDSEdmundsAEBodyStyle.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/GT_VehicleIdentification/GTDSSelectYearViewController.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/GT_VehicleIdentification/GTDSVINPortraitViewController.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/ANWelcomeViewController.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/ANBaseWelcomeViewController.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/GT_VehicleIdentification/AEScanVINZBarViewController.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZBarSDK/Headers/ZBarSDK/ZBarSDK.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZBarSDK/Headers/ZBarSDK/zbar.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZBarSDK/Headers/ZBarSDK/ZBarSymbol.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZBarSDK/Headers/ZBarSDK/ZBarImage.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZBarSDK/Headers/ZBarSDK/ZBarImageScanner.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZBarSDK/Headers/ZBarSDK/ZBarReaderView.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZBarSDK/Headers/ZBarSDK/ZBarReaderViewController.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZBarSDK/Headers/ZBarSDK/ZBarReaderController.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZBarSDK/Headers/ZBarSDK/ZBarCaptureReader.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZBarSDK/Headers/ZBarSDK/ZBarHelpController.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/ZBarSDK/Headers/ZBarSDK/ZBarCameraSimulator.h \
+  /Users/qnguyen/GTD_LIBERTY_MUTUAL/Stub/platforms/ios/ExpressEstimateLib/Claim\ Valet/ANWelcomeTextVehicleIdentifiedVC.h

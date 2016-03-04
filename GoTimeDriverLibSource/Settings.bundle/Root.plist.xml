@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>DefaultValue</key>
+			<string>1.6.1.36</string>
+			<key>Key</key>
+			<string>versionNumber</string>
+			<key>Title</key>
+			<string>Version</string>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Some data and functionality within solution provided by Edmunds 
+http://wwww.edmunds.com?id=apis.
+
+This software uses the open source ZXingObjC Barcode Reader library, version 3.0.3, which is available from https://github.com/TheLevelUp/ZXingObjC.
+</string>
+			<key>Title</key>
+			<string></string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+	</array>
+</dict>
+</plist>

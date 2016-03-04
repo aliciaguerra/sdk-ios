@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AEScanVINViewController">
+            <connections>
+                <outlet property="_buttonForCancel" destination="4" id="122"/>
+                <outlet property="btnLinearBarcode" destination="161" id="368"/>
+                <outlet property="ivCameraOverlay" destination="55" id="134"/>
+                <outlet property="vScanArea" destination="135" id="140"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="135">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="588"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4">
+                    <rect key="frame" x="277" y="525" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="35" id="769-hz-1bJ"/>
+                        <constraint firstAttribute="height" constant="35" id="Xs2-YV-QhD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" image="button_close.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonPressedClose:" destination="-1" eventType="touchUpInside" id="16"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mask_2d_iphone5.png" translatesAutoresizingMaskIntoConstraints="NO" id="55">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="161">
+                    <rect key="frame" x="20" y="320" width="55" height="108"/>
+                    <state key="normal" backgroundImage="linear_barcode_btn.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="useZBarScanner:" destination="-1" eventType="touchUpInside" id="170"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="135" secondAttribute="bottom" constant="-20" id="185"/>
+                <constraint firstItem="55" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="297"/>
+                <constraint firstItem="55" firstAttribute="leading" secondItem="135" secondAttribute="leading" id="298"/>
+                <constraint firstAttribute="bottom" secondItem="55" secondAttribute="bottom" id="338"/>
+                <constraint firstItem="55" firstAttribute="top" secondItem="135" secondAttribute="top" id="343"/>
+                <constraint firstItem="161" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" id="344"/>
+                <constraint firstAttribute="bottom" secondItem="161" secondAttribute="bottom" constant="140" id="367"/>
+                <constraint firstItem="135" firstAttribute="top" secondItem="1" secondAttribute="top" id="376"/>
+                <constraint firstItem="135" firstAttribute="trailing" secondItem="55" secondAttribute="trailing" id="378"/>
+                <constraint firstAttribute="trailing" secondItem="55" secondAttribute="trailing" id="379"/>
+                <constraint firstItem="55" firstAttribute="top" secondItem="1" secondAttribute="top" id="380"/>
+                <constraint firstAttribute="trailing" secondItem="4" secondAttribute="trailing" constant="8" id="7Qb-QU-cs7"/>
+                <constraint firstAttribute="bottom" secondItem="4" secondAttribute="bottom" constant="8" id="8rw-G4-aQF"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="button_close.png" width="40" height="40"/>
+        <image name="linear_barcode_btn.png" width="55" height="108"/>
+        <image name="mask_2d_iphone5.png" width="320" height="568"/>
+    </resources>
+</document>

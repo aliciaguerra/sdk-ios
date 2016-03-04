@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AEScanVINZBarViewController">
+            <connections>
+                <outlet property="_buttonForCancel" destination="4" id="122"/>
+                <outlet property="btn2DBarcode" destination="135" id="352"/>
+                <outlet property="ivCameraOverlay" destination="55" id="134"/>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4">
+                    <rect key="frame" x="725" y="981" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="ZNN-c9-Pok"/>
+                        <constraint firstAttribute="width" constant="35" id="gOY-9Y-nN6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" image="button_close.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonPressedClose:" destination="-1" eventType="touchUpInside" id="16"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mask_linear_iphone5.png" translatesAutoresizingMaskIntoConstraints="NO" id="55">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="135">
+                    <rect key="frame" x="20" y="776" width="55" height="108"/>
+                    <state key="normal" backgroundImage="2d_barcode_btn.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="useZxingScanner:" destination="-2" eventType="touchUpInside" id="143"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="55" firstAttribute="leading" secondItem="1" secondAttribute="leading" id="241"/>
+                <constraint firstAttribute="bottom" secondItem="55" secondAttribute="bottom" id="278"/>
+                <constraint firstItem="135" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" id="315"/>
+                <constraint firstAttribute="bottom" secondItem="135" secondAttribute="bottom" constant="140" id="351"/>
+                <constraint firstItem="55" firstAttribute="top" secondItem="1" secondAttribute="top" id="354"/>
+                <constraint firstAttribute="trailing" secondItem="55" secondAttribute="trailing" id="356"/>
+                <constraint firstAttribute="bottom" secondItem="4" secondAttribute="bottom" constant="8" id="XKA-O6-2vr"/>
+                <constraint firstAttribute="trailing" secondItem="4" secondAttribute="trailing" constant="8" id="loJ-Ju-rAQ"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
+            <point key="canvasLocation" x="455" y="332"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="2d_barcode_btn.png" width="55" height="108"/>
+        <image name="button_close.png" width="40" height="40"/>
+        <image name="mask_linear_iphone5.png" width="320" height="568"/>
+    </resources>
+</document>
